@@ -1,0 +1,40 @@
+/* set margin 0 dan set bg  */
+body {
+	margin: 0;
+	background: #3fa796;
+}
+
+#app {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 200px);
+	padding: 24px;
+	gap: 24px;
+}
+
+.note {
+	height: 200px;
+	border-radius: 5px;
+	padding: 16px;
+	box-sizing: border-box;
+	border-radius: none;
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+	resize: none;
+	font-family: Poppins;
+	font-size: 16px;
+}
+
+.add-note {
+	height: 200px;
+	border: none;
+	outline: none;
+	background: rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 120px;
+	color: rgba(0, 0, 0, 0.5);
+	transition: background 0.2s;
+}
+
+.add-note:hover {
+	background: rgba(0, 0, 0, 0.2);
+}
